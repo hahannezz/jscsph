@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Fotografía de Paisajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <title>Portafolio</title>
+        <h1>Juan Pérez - Fotógrafo de Paisajes</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p> <strong>Nombre:</strong>Juan Perez</p>
+        <p> <strong>edad:</strong>23 años </p>
+        <p> <strong>breve descripciòn:</strong> Tecnico universitario en 
+            Fotografía egresado del instituto universitario patagonico de 
+            las artes con 2 años de experiencia acpturando la belleza del 
+            mundo tanto naturales como urbanos.</p>
+
+    </section>
+
+    <section id="portfolio">
+        <h2>Portafolio</h2>     
+        <div class="carusel">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="slides">
+                <img src="carpeta de carga/fotos/paisaje 1.png" alt="Paisaje 1">
+                <img src="carpeta de carga/fotos/paisaje 2.png" alt="Paisaje 2">
+                <img src="carpeta de carga/fotos/paisaje 3.png" alt="Paisaje 3">
+                <img src="carpeta de carga/fotos/paisaje 4.png" alt="Paisaje 4">
+                <img src="carpeta de carga/fotos/paisaje 5.png" alt="Paisaje 5">
+                <img src="carpeta de carga/fotos/paisaje 6.png" alt="Paisaje 6">
+                <img src="carpeta de carga/fotos/paisaje 7.png" alt="Paisaje 7"> 
+                <img src="carpeta de carga/fotos/paisaje 8.png" alt="Paisaje 8"> 
+                <img src="carpeta de carga/fotos/paisaje 9.png" alt="Paisaje 9"> 
+                <img src="carpeta de carga/fotos/paisaje 10.png" alt="Paisaje 10"> 
+                <img src="carpeta de carga/fotos/paisaje 11.png" alt="Paisaje 11"> 
+                <img src="carpeta de carga/fotos/paisaje 12.png" alt="Paisaje 12">
+                <img src="carpeta de carga/fotos/paisaje 13.png" alt="Paisaje 13"> 
+                <img src="carpeta de carga/fotos/paisaje 14.png" alt="Paisaje 14"> 
+                <img src="carpeta de carga/fotos/paisaje 15.png" alt="Paisaje 15">  
+            </div>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        
+        <div class="social-media"> 
+            <a href="https://web.whatsapp.com/" id="contact" onclick="copyToClipboard('2302 618186')" target="_blank"> 
+                <img src="carpeta de carga/iconos/whattsapp.png" alt="whattsapp"> 
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?hl=es-419#inbox" id="contact" onclick="copyToClipboard('JuanPerez@gmail.com')" target="_blank"> 
+                <img src="carpeta de carga/iconos/gmail.png" alt="gmail"> 
+            </a>
+            <a href="https://www.instagram.com/tu_cuenta" target="_blank"> 
+                <img src="carpeta de carga/iconos/instagram.png" alt="Instagram"> 
+            </a> 
+            <a href="https://www.facebook.com/tu_cuenta" target="_blank"> 
+                <img src="carpeta de carga/iconos/facebook.png" alt="Facebook"> 
+            </a> 
+            <a href="https://twitter.com/tu_cuenta" target="_blank"> 
+                <img src="carpeta de carga/iconos/twitter.png" alt="Twitter"> 
+            </a> 
+
+        </div>
+
+    </section>
+
+    <div class="spacer"></div> 
+
+    <footer>
+        <p>&copy; 2024 Juan Pérez. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scrips.js"></script>
+</body>
+</html>
